@@ -4,7 +4,7 @@ from datetime import datetime
 
 # BookSerializer that serializes all fields of the Book model.
 class BookSerializer(serializers.ModelSerializer):
-    class Meta:
+    class Meta:  
         model = Book
         fields = '__all__'
         
